@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    margin: 0 auto;
+    background-color: bisque;
+}
 
 /* stylish navigation bar */
 .nav-link{
@@ -42,7 +45,7 @@
    .about span{
     display: block;
     font-size: large;
-    color: #888;
+    color: #10828C;
     position: absolute;
     left: 115px;
    }
@@ -94,6 +97,24 @@
    .contact .center .form-control::placeholder{
     color: #888;
     font-size: 16px;
+   }
+
+   /* footer */
+
+   .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    
+   }
+   /* footer content display */
+   .footer span{
+       color: #fff;
+       text-align: center;
+       display: block;
+       width: 100%;
    }
    
    
