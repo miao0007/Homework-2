@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* stylish navigation bar */
+.nav-link{
+    margin-right: 20px;
+   }
+   .nav-link {
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+.nav-link:hover{
+    background: #f4f4f4;
+    color: darkslategray;
+   }
+   .navbar-toggler{
+    background:#fff;
+  }
+
+
+/* stylish about me */
+.about{
+    margin: 60px 0;
+    padding: 20px;
+    position: relative;
+   }
+   .about h3{
+    color: darkslategray;
+    margin: 30px 30px 30px 60px;
+   }
+   br{
+       
+    }
+   .about img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    font-size: large;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+   .about h4{
+    color: #10828C;
+   }
+   .about  p{
+    line-height:2;
+    color:#888;
+   }
+
+
+   /* portfolio */
+   .portfolio{
+    margin: 60px 0;
+       position: relative; 
+   }
+   .portfolio h3{
+       margin: 30px 30px 30px 90px;
+    color: darkslategray;
+    
+   }
+   .portfolio img{
+     height: 200px;
+     width: 400px;
+     margin: 20px;
+   }
+
+
+   /* Contact form */
+   .contact{
+    margin: 100px 0;
+    position: relative;  
+   }
+   .contact h3{
+       margin-left: 75px;
+    padding:30px 1px;
+    color: darkslategray; 
+   }
+   .contact .center{
+    max-width: 600px;
+   }
+   .contact .center .btn-secondary{
+    background: #10828C;
+    color: #fff;
+    border:0;
+   }
+
+   .contact .center .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+   
+   
+   
