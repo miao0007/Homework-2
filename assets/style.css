@@ -118,4 +118,19 @@ body{
    }
    
    
-   
+   @media screen and (max-width: 640px){
+    
+    /* Update navigation bar to fill entire width and move nav below it */
+    #navbarSupportedContent{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar {
+        flex-direction: column!important;
+    } 
+    a.navbar-brand{
+        width: 140%;
+        margin:0;
+        text-align: center;
+    }
+}
