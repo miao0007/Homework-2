@@ -7,45 +7,50 @@
 
   <title>Jeff</title>
   <!-- Add favicon to website -->
-  <link rel="icon" href="assets/images/favicon.png"  type="image/icon type">
+  <link rel="icon" href="./assets/images/favicon.png"  type="image/icon type">
 
   <!-- link to css sheet -->
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- link bootstrap css style library -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="d-flex flex-column">
   <!-- This is a header which shows my name -->
   <!-- This is navigation bar section-->
 
-  <!-- define nav bar style, position and background color -->
-  <nav class="navbar navbar-expand bg-info p-0">
-    <!-- show name on top -->
-    <h2 class="text-white"> Jeff Miao</h2>
-
-    <!-- place the nav bar items on the top right of the page -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-4 ">
-
-        <li class="nav-item">
-          <a class="nav-link" data-value="about" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-value="resume" href="https://drive.google.com/file/d/13HOqq1SfdkS9dCHXTRXsstUyNqQfWPsC/view?usp=sharing" target="_BLANK">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " data-value="portfolio" href="assets/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " data-value="contact" href="assets/contact.html">Contact</a>
-        </li>
-      </ul>
-
+<header class = "bg-info">
+  <div class="container" id="headerMobile">
+    <div class="row">
+      <div class="col-md-7 justify-content-start">
+        <h2 class = "title">Jeff Miao</h2>
     </div>
-  </nav>
+    <div class="col-md-5">
+      <ul class="nav" id="navCenter">
+        <li class="nav-link">
+            <a class="nav-item active" href="index.html" id="about">About</a>
+        </li>
+        
+        <p class="divider">|</p>
+                        <li class="nav-link">
+                            <a class="nav-item" href="./assets/portfolio.html" id="portfolio">Portfolio</a>
+                        </li>
+                        <p class="divider">|</p>
+                        <!-- navEnd is applied to remove padding on this option to make the content flush with the main body -->
+                        <li class="nav-link">
+                            <a class="nav-item" href="./assets/contact.html" id="contact">Contact</a>
+                        </li> 
+                        <p class="divider">|</p>
+                        <li class="nav-link navEnd">
+                            <a class="nav-item" href="https://drive.google.com/file/d/13HOqq1SfdkS9dCHXTRXsstUyNqQfWPsC/view?usp=sharing" target="_BLANK" id="resume">Resume</a>
+                        </li>
+                        </ul>           
+    </div>
+    </div>
+  </div>
+</header>
 
   <!-- About me section -->
   <div class="about" id="about">

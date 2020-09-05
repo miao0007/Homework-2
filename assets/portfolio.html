@@ -12,30 +12,39 @@
   <link rel="icon" href="images/favicon.png"  type="image/icon type">
 </head>
 
-<body>
+<body class="d-flex flex-column">
+  <!-- This is a header which shows my name -->
   <!-- This is navigation bar section-->
-
-  <nav class="navbar navbar-expand bg-info p-0">
-    <h2 class="text-white"> Jeff Miao</h2>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-4 ">
-
-        <li class="nav-item">
-          <a class="nav-link" data-value="about" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-value="resume" href="https://drive.google.com/file/d/13HOqq1SfdkS9dCHXTRXsstUyNqQfWPsC/view?usp=sharing" target="_BLANK">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " data-value="portfolio" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " data-value="contact" href="contact.html">Contact</a>
-        </li>
-      </ul>
-
+<header class = "bg-info">
+  <div class="container" id="headerMobile">
+    <div class="row">
+      <div class="col-md-7 justify-content-start">
+        <h2 class = "title">Jeff Miao</h2>
     </div>
-  </nav>
+    <div class="col-md-5">
+      <ul class="nav" id="navCenter">
+        <li class="nav-link">
+            <a class="nav-item active" href="index.html" id="about">About</a>
+        </li>
+        
+        <p class="divider">|</p>
+                        <li class="nav-link">
+                            <a class="nav-item" href="assets/portfolio.html" id="portfolio">Portfolio</a>
+                        </li>
+                        <p class="divider">|</p>
+                        <!-- navEnd is applied to remove padding on this option to make the content flush with the main body -->
+                        <li class="nav-link">
+                            <a class="nav-item" href="assets/contact.html" id="contact">Contact</a>
+                        </li> 
+                        <p class="divider">|</p>
+                        <li class="nav-link navEnd">
+                            <a class="nav-item" href="https://drive.google.com/file/d/13HOqq1SfdkS9dCHXTRXsstUyNqQfWPsC/view?usp=sharing" target="_BLANK" id="resume">Resume</a>
+                        </li>
+                        </ul>           
+    </div>
+    </div>
+  </div>
+</header>
   <!-- portfolio -->
 
   <div class="portfolio" id="portfolio">
