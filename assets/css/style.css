@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    color:#000000;
     margin: 0 auto;
     background-color: bisque;
     background-image: url("../images/13.png");
@@ -42,10 +43,14 @@ header {
     padding: 0;
     line-height: 74px;
 }
+
+.nav-item {
+   font-weight: bold; 
+}
 .nav-item:hover{
     color: #ffffff;
    }
-   .nav-item:link, .nav-item:visited {
+.nav-item:link, .nav-item:visited {
     color: #ffffff;
     text-decoration: none;
 }
